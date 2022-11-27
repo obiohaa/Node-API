@@ -15,7 +15,7 @@ const apiSchema = new mongoose.Schema({
     },
     rating: {
         type: Number,
-        default: 4.5
+        default: 4.1
     },
     createdAt: {
         type: Date,

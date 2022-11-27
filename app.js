@@ -13,7 +13,7 @@ app.use(express.json())
 
 //Routes
 app.get('/', (req, res) => {
-    res.send('API TESTs')
+    res.send('API TESTs to test a route')
 })
 
 //API routes
