@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "23685f54-972a-45d5-b420-7175efcbfe70",
+		"name": "shopproduct API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11716972"
+	},
+	"item": [
+		{
+			"name": "All item parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products?sort=name&fields=name,price&limit=2&page=2",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "name"
+						},
+						{
+							"key": "fields",
+							"value": "name,price"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Displays all items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products/static",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products",
+						"static"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "displays items sorted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products?sort=name",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "displays items fields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products?fields=name,price",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "name,price"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "displays Items limit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products?limit=2&page=2",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All items parameters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TASK}}/products?sort=name&fields=name,price&limit=2&page=2",
+					"host": [
+						"{{TASK}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "name"
+						},
+						{
+							"key": "fields",
+							"value": "name,price"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
